@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1 id="name">footer</h1>
+        <span id="fun">it's not where it's supposed to be, whoops 😳</span>
+    </header>
+    <main>
+        <div id="greeting">
+            <h2>Hi! Welcome to my portfolio website!</h2>
+        </div>
+        <div id="container">
+            <section id="about-me">
+                <h3 class="heading">About me</h3>
+
+                <ul>
+                    <li>Male</li>
+                    <li>17 y.o.</li>
+                    <li>Poland 🇵🇱</li>
+                    <li>10.06 🎂</li>
+                </ul>
+            </section>
+            <section id="interests">
+                <h3 class="heading">Interests</h3>
+
+                <p>I'm currently interested in web development (mainly backend), operating systems and low level programming; practising as
+                much as I can to be a good developer.</p>
+                <p>As for the programming languages, I'm learning Rust (which is my favorite), PHP, JavaScript, and Java.<br>
+                If you haven't guessed by now, the last three are there because of the school, though I admit, JS seems pretty useful nowadays.<br>
+                I've also used to study C and C++ a little bit, but both of these aren't memory safe, so I decided to stick to Rust.</p>
+                <p>I use Gentoo Linux as a daily-driver operating system, but OpenBSD is my second favorite (too bad I can't use it to host
+                this website ;_;).</p>
+            </section>
+        </div>
+        <section id="my-projects">
+            <h3 class="heading">My projects</h3>
+
+            <dl>
+                <dt><a href="https://github.com/fooooter/drain"><strong>Drain</strong></a></dt>
+                <dd>A free and open source HTTP server, designed for dynamic pages and APIs creation using shared objects, written in Rust.</dd>
+            </dl>
+        </section>
+        <section id="about-website">
+            <h3 class="heading">About the website</h3>
+
+            <p>This website is running on a Raspberry Pi Zero 2 W using my own HTTP server - Drain (<a href="https://github.com/fooooter/drain">go check it out!</a>).</p>
+            <p>It uses ngrok and a free subdomain from <a href="https://freedns.afraid.org">Afraid's FreeDNS</a> (huge thanks to these guys!).</p>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-links">
+            <a href="https://github.com/fooooter"><img src="github.svg" alt="GitHub" class="link-logo"/></a>
+            <a href="https://www.linkedin.com/in/jakub-stopczy%C5%84ski-7730b9345/"><img src="linkedin.svg" alt="LinkedIn" class="link-logo"/></a>
+            <a href="https://crates.io/users/fooooter"><img src="cargo.svg" alt="crates.io" class="link-logo"/></a>
+        </div>
+        <div id="copyright">
+            Copyright © footer 2024
+        </div>
+        <div id="credits-container">
+            <div id="credits">
+                <strong>Credits:</strong>
+                <ul>
+                    <li>Haikei (background)</li>
+                    <li>Creator of the Tiny5 font, Stefan Schmidt</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Tiny5;
+    src: url(Tiny5-Regular.ttf);
+}
+
+body {
+    height: 100vh;
+    font-family: "Monospaced", monospace;
+    margin: 0;
+}
+
+header {
+    min-height: 12.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: #172A3A;
+    color: #09BC8A;
+}
+
+#name {
+    font-family: "Tiny5", serif;
+    margin-top: 0;
+    font-size: min(20vw, 80px);
+    margin-bottom: 0;
+}
+
+#fun {
+    font-size: min(1vw, 7px);
+}
+
+small {
+    font-size: xx-small;
+}
+
+main {
+    min-height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: min(4vw, 20px);
+    background-image: url("bg.svg");
+    background-size: cover;
+    color: #75DDDD;
+}
+
+a {
+    color: #09BC8A;
+}
+
+a:hover {
+    color: #508991;
+}
+
+#greeting {
+    width: 100%;
+    font-size: min(6vw, 30px);
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+}
+
+#container > section {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.heading {
+    font-size: min(6vw, 32px);
+}
+
+dt {
+    font-size: min(5vw, 27px);
+}
+
+#about-me {
+    width: 30%;
+}
+
+#interests {
+    width: 70%;
+}
+
+#my-projects {
+    width: 100%;
+}
+
+#about-website {
+    width: 100%;
+}
+
+section {
+    margin: 1%;
+    padding: 0.5em;
+    background-color: rgba(0, 67, 70, 0.7);
+    border-color: #09BC8A;
+    border-style: dotted;
+    border-width: min(1.5vw, 5px);
+}
+
+footer {
+    min-height: 7.5%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #508991;
+    padding: 0.5%;
+}
+
+#footer-links {
+    width: 100%;
+}
+
+.link-logo {
+    max-width: 40px;
+    width: 6vw;
+}
+
+#copyright {
+    text-wrap: nowrap;
+    font-size: min(3vw, 12px);
+    margin: 2.5%;
+}
+
+#credits-container {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: min(3vw, 12px);
+    width: 100%;
+}
+
+ul {
+    padding-left: min(4vw, 30px);
+}
