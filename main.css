@@ -1,6 +1,6 @@
 @font-face {
     font-family: Tiny5;
-    src: url(Tiny5-Regular.ttf);
+    src: url(assets/Tiny5-Regular.ttf);
 }
 
 body {
@@ -38,7 +38,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     font-size: min(4vw, 20px);
-    background-image: url("bg.svg");
+    background-image: url("assets/bg.svg");
     background-size: cover;
     color: #75DDDD;
 }
@@ -118,10 +118,19 @@ footer {
     width: 6vw;
 }
 
-#copyright {
+#copyright-container {
     text-wrap: nowrap;
+    text-align: center;
     font-size: min(3vw, 12px);
     margin: 2.5%;
+}
+
+#license {
+    color: #172A3A;
+}
+
+#license:hover {
+    color: #09BC8A;
 }
 
 #credits-container {
