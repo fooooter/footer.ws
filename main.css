@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 
-#greeting, .heading, footer, #fun {
+#greeting, .heading, footer, .fun {
     font-family: "Monospaced", monospace;
 }
 
@@ -34,7 +34,8 @@ header {
     margin-bottom: 0;
 }
 
-#fun {
+.fun {
+    font-style: italic;
     font-size: min(1vw, 7px);
 }
 
