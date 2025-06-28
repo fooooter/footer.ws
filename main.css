@@ -88,6 +88,10 @@ dt {
     width: 30%;
 }
 
+#contact {
+    font-size: min(3vw, 20px);
+}
+
 #interests {
     width: 70%;
 }
