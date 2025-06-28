@@ -3,10 +3,19 @@
     src: url(assets/Tiny5-Regular.ttf);
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url(assets/Montserrat-Regular.ttf);
+}
+
 body {
     height: 100vh;
-    font-family: "Monospaced", monospace;
+    font-family: "Montserrat", monospace;
     margin: 0;
+}
+
+#greeting, .heading, footer, #fun {
+    font-family: "Monospaced", monospace;
 }
 
 header {
@@ -100,8 +109,16 @@ section {
     border-width: min(1.5vw, 5px);
 }
 
+#footer-bg {
+    background-image: url("assets/footer-bg.svg");
+    background-size: cover;
+    min-height: 10vw;
+    width: 100%;
+    margin: 0;
+}
+
 footer {
-    min-height: 7.5%;
+    min-height: 6.5%;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -123,6 +140,11 @@ footer {
     text-align: center;
     font-size: min(3vw, 12px);
     margin: 2.5%;
+}
+
+#name-sm {
+    font-family: "Tiny5", serif;
+    font-size: min(6vw, 20px);
 }
 
 #license {
