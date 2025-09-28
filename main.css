@@ -67,14 +67,38 @@ a:hover {
     text-align: center;
 }
 
-#container {
-    display: flex;
-    width: 100%;
+@media only screen and (min-width: 40rem) {
+    #container {
+        display: flex;
+        width: 100%;
+    }
+
+    #about-me {
+        width: 30%;
+    }
+
+    #interests {
+        width: 70%;
+    }
+
+    #container > section {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
 }
 
-#container > section {
-    margin-left: 1%;
-    margin-right: 1%;
+@media only screen and (max-width: 40rem) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #container > section {
+        width: 91.25%;
+    }
 }
 
 .heading {
@@ -85,16 +109,8 @@ dt {
     font-size: min(5vw, 27px);
 }
 
-#about-me {
-    width: 30%;
-}
-
 #contact {
     font-size: min(3vw, 20px);
-}
-
-#interests {
-    width: 70%;
 }
 
 #my-projects {
